@@ -1,4 +1,4 @@
-# Detailed ThreatHunting-CheatSheat For Windows
+# ThreatHunting-CheatSheat For Windows
 
 Simple usefull threat hunting cheat sheet for Windows environments, keep in mind these notes is usefull in newly enviroments not old windows versions.
 
