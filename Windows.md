@@ -60,6 +60,7 @@ Common file extensions associated with ASP.NET web applications :
 
 | **File Extension** | **Description**                                                                          |
 |--------------------|------------------------------------------------------------------------------------------|
+| `.asp`             | ASP.NET contains script commands that are processed by the Web server before being sent to the client's browser |
 | `.aspx`            | ASP.NET Web Forms page; contains server-side code to render HTML dynamically.           |
 | `.ascx`           | ASP.NET User Control; reusable components that can be embedded in .aspx pages.         |
 | `.ashx`            | ASP.NET HTTP handler; processes HTTP requests and can return custom responses.          |
