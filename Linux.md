@@ -2,7 +2,7 @@
 
 Simple usefull threat hunting cheat sheet for Linux environments, keep in mind these notes is usefull in newly enviroments not old Linux versions.
 
-This cheatsheet in more usefull when you don't access/not permited to use your tools in the case/eviroment or the time you reach to incidents.
+This cheatsheet is more usefull when you don't access/not permited to use your tools in the case/eviroment or the time you reach to incidents.
 
 ## **System Information**
 
@@ -52,7 +52,7 @@ This cheatsheet in more usefull when you don't access/not permited to use your t
 
   ```bash
   sestatus  # Check SELinux status (enabled/disabled)
-  systemctl auditd status  # Check status of audit daemon for logging
+  systemctl auditd status --no-pager  # Check status of audit daemon for logging. -- no-pager for avoid paging.
   journalctl -xe  # View recent system logs (systemd)
   ```
 
@@ -120,7 +120,7 @@ Runs /usr/local/bin/backup.sh as user user_one at 02:30 AM on the 1st day of eve
 One of the commmon options for logging on linux is Auditd if enabled in system we can use for hunting : 
 
 ```bash
-systemctl status auditd   # check if auditd is enabled
+systemctl auditd status  # check if auditd is enabled
 
 auditctl -l # list of rules
 
