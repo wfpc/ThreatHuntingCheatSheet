@@ -6,7 +6,7 @@ This cheatsheet is more usefull when you don't access/not permited to use your t
 
 ## **System Information**
 
-| **Location**           | **Purpose (excerpt from `man hier`)**                                  |
+| **Location**           | **Purpose**                                  |
 |------------------------|-------------------------------------------------------------------------|
 | `/etc`                 | System‑wide configuration files                                         |
 | `/var/log`             | Default log directory                                                   |
