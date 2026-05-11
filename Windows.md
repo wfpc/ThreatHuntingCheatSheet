@@ -34,7 +34,7 @@ This cheatsheet in more usefull when you don't access/not permited to use your t
 ```powershell
 Get-Childitem -Path "<Files_path>" -Include *.aspx,*.asp -Recurse | Select-String -Pattern "IOC_Pattern" | Select-Object LineNumber,FileName,Path,Pattern
 
-Get-Childitem -Path "<Files_path>" -Include *.asp, *.aspx, *.ascx, *.ashx, *.asmx, *.asax, *.config, *.axd, *.dll, *.svc, *.json -Recurse | Select-String -Pattern "using\s+System\.(?:IO|Diagnostics|Net|Web|Security|Reflection|Microsoft\.AspNet|Text|Threading)\s*;" | Select-Object LineNumber,FileName,Path,Pattern 
+Get-Childitem -Path "<Files_path>" -Include *.asp, *.aspx, *.ascx, *.ashx, *.asmx, *.asax, *.config, *.axd, *.svc, *.json -Recurse | Select-String -Pattern "using\s+System\.(?:IO|Diagnostics|Net|Web|Security|Reflection|Microsoft\.AspNet|Text|Threading)\s*;" | Select-Object LineNumber,FileName,Path,Pattern 
 ```
 
 _Recommended patterns for ebove command :_
